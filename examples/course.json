@@ -1,0 +1,16 @@
+{
+    "students": [
+        {"student_id": "S1", "name": "Иван Петров"},
+        {"student_id": "S2", "name": "Анна Смирнова"}
+    ],
+    "criteria": [
+        {"criterion_id": "HW", "name": "Домашние задания", "max_score": 10, "weight": 0.4},
+        {"criterion_id": "EXAM", "name": "Экзамен", "max_score": 20, "weight": 0.6}
+    ],
+    "evaluations": [
+        {"student_id": "S1", "criterion_id": "HW", "score": 9, "comment": "Хорошая работа"},
+        {"student_id": "S1", "criterion_id": "EXAM", "score": 16},
+        {"student_id": "S2", "criterion_id": "HW", "score": 10},
+        {"student_id": "S2", "criterion_id": "EXAM", "score": 12}
+    ]
+}
